@@ -1,0 +1,103 @@
+
+body {
+    background-image:url("../images/concrete_seamless.jpg");
+    height:100%;
+}
+
+.navbar {
+    border-bottom: 4px solid #000000;
+}
+
+.myHeader{
+    background-color: white;
+}
+
+.imageSize60 {
+    width:40px;
+}
+
+.imageSize100 {
+    width: 100px;
+}
+
+.container-fluid {
+    max-width: 960px;
+}
+
+.jumbotron {
+    background-image:url("images/concrete_seamless.jpg");
+}
+
+.card {
+    background-color:rgb(255, 255, 255);
+}
+
+.text-Merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+a:link {
+text-decoration: none;
+color:#777777
+}
+
+a:visited {
+text-decoration: none;
+color:#777777
+}
+
+a:hover {
+text-decoration: none;
+color:#777777
+}
+
+a:active {
+text-decoration: none;
+color:#777777
+}
+
+nav h1{
+font-size: 70px;
+margin-top: -1rem;
+}
+
+.londrina {
+font-family: 'Londrina Sketch', cursive;
+}
+
+.container-fluid{
+max-width:900px;
+}
+
+.footer {
+position:relative;
+bottom:0;
+background-color:black;
+}
+
+.myBorderBottom {
+border-bottom: 3px solid #a6a6a6;
+}
+
+.allWidthHeader {
+width:100%;
+}
+
+.m-- {
+    margin-top: -10px;
+}
+
+button {
+    width: 100%;
+}
+
+
+#button2 {
+    background-image: url("../images/blueCrystal.jpg");
+}
+#button3 {
+    background-image: url("../images/pinkCrystal.jpg");
+}
+#button4 {
+    background-image: url("../images/blueCrystal.jpg");
+}

@@ -1,0 +1,133 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Reset-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+        <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+        <!--External Style-->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+        <!--jQuery Link-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body> 
+
+    
+<nav>
+    <div class="text-center allWidthHeader">
+        <h1 class = "londrina font-weight-bold myHeader text-dark pt-3 pb-2 pt-4 mb-0">Crystals<span><img class = "imageSize100 m--" src="assets/images/crystal-image.jpg"></span>Collector</h1>
+        <p class="text-dark bg-white mb-0 pb-1 mt-0">"A Game of Math, Memory, and Chance"</p>
+    </div>
+</nav>        
+<nav>
+    <div class="text-center bg-dark text-light mt-0 myBorderBottom">
+        <span><a href="https://sunshinedaydeam.github.io/Responsive-Portfolio/index.html">About Me &nbsp |</a>
+        <a href="https://sunshinedaydeam.github.io/Responsive-Portfolio/games.html">&nbsp More Games &nbsp |</a>
+        <a href="https://sunshinedaydeam.github.io/Responsive-Portfolio/contact.html"> &nbsp Contact Me</a></span>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row pt-3">
+        <div class="col-sm-4 text-center">
+            <h6 class="font-weight-light text-info" >"Goal"</h6>
+            <h1 class="text-uppercase text-Merriweather text-dark" id="randomTargetNumber"></h1>
+        </div>
+        <div class="col-sm-4 text-center">
+            <h6 class="font-weight-light text-info" >"Total"</h6>
+            <h1 class="text-Merriweather text-dark" id="userTotal"></h1>     
+        </div>
+        <div class="col-sm-4 text-center">
+            <h6 class="font-weight-light text-info" >"Left"</h6>
+            <h1 class="text-uppercase text-Merriweather text-dark" id ="randomTotalMinus"></h1>
+        </div>
+    </div>
+    
+    <div class="row mt-0 pt-0">
+        <div class="col-sm-12 mt-2">
+            <div class="card p-3">
+                <div class="row p-2 text-center">
+                    <div class="col-sm-3">
+                        <input type="image" src="assets/images/purpleCrystal.jpg" alt="purple crystal" class = "imagesize100" id="button1">
+                    </div>  
+                    <div class="col-sm-3">
+                        <input type="image" src="assets/images/greenCrystal.jpg" alt="purple crystal" class = "imagesize100" id="button2">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="image" src="assets/images/pinkCrystal.jpg" alt="purple crystal" class = "imagesize100" id="button3">                    
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="image" src="assets/images/crystal-image.jpg" alt="purple crystal" class = "imagesize100" id="button4">
+                    </div>           
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-12 mt-2">
+            <div class="card p-3 text-center">
+                <h4 class = "text-secondary"> Wins: &nbsp <span class="text-success"id ="wins"></span> &nbsp &nbsp  Losses: &nbsp <span class="text-danger" id="losses"></span> &nbsp &nbsp Streak: &nbsp <span class="text-danger" id="lossStreak"></span><span class="text-success" id="winStreak"></span></h4>
+            </div>
+        </div>        
+        <div class="col-sm-12 mt-2">
+            <div class="card">
+                <div class="row m-2">
+                    <div class="col-sm-12">
+                        <h4 class = "myBorderBottom text-info text-center mb-3 pb-3" > How to Play:</h4>
+                        <p>Each crystal is worth a random number between 1 and 12.</p>
+                        <p>Click on different crystals to add up the the given number.</p>
+                        <p>If your total adds up to the exact number, you win.</p>
+                        <p>If your total goes over the number, you lose.</p>
+                        <h4>Enjoy!</h4>
+                    </div>      
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-sm-12 pt-3 pr-3">
+                <div class="card">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="m-3 pb-3 text-info myBorderBottom"> Connect With Me</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 p-3 ml-3">
+                                <a href = "https://sunshinedaydeam.github.io/Responsive-Portfolio/index.html" target="_blank"><img src="assets/images/github.png" class="imageSize60 pl-1 pb-3" width="128px"></a>
+                                <a href = "https://www.linkedin.com/in/alex-bruner-366348155/" target="_blank"><img src="assets/images/linkedin.png" class="imageSize60 pl-1 pb-3" width=128px" icon"></a>
+                                <a href = "https://stackoverflow.com/users/9510977/alex-bruner" target="_blank"><img src="assets/images/stack_red.png" class="imageSize60 pl-1 pb-3" width="128px"></a>
+                                <a href = "https://www.facebook.com/alex.d.bruner" target="_blank"><img src="assets/images/social-facebook-box-blue-icon.png" class="imageSize60 pl-1 pb-3" width="128px"></a>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+</div>
+
+    <footer class="footer pb-1 pt-4">
+        <p class = "text-center text-muted mb-0">Coded By Alex Bruner</p>
+        <p class = "text-center text-muted">Copyright 2018</p>
+    </footer>
+      
+    <script src="assets/javascript/game.js"></script>
+      
+
+</body>
+</html>
