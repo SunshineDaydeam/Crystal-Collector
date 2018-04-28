@@ -11,8 +11,6 @@ $(document).ready(function(){
 
 //declaring functions//
 
-
-
     //reset function
     function reset(){                                   
         randNumber = Math.floor(Math.random()*101+19);
@@ -24,7 +22,7 @@ $(document).ready(function(){
         userGuess = 0;
         updateDisplay();}
 
-    //update displayed number function
+    //update displayed numbers function
     function updateDisplay(){
         $("#userTotal").text(userGuess);
         $('#randomTargetNumber').text(randNumber);
@@ -58,54 +56,50 @@ $(document).ready(function(){
     updateDisplay();                    //run update display when game loads
     
 
-//Button Controls (When Clicked)//
+//Button Controls (When Clicked)//  + " "
 
+    //Blue Crystal (crystal1)
     $("#button1").on ('click', function(){
         userGuess += crystal1;
         //console.log(userGuess);
         updateDisplay();
-       if (userGuess == randNumber){
-            winGame();
-        }
+        if (userGuess == randNumber){
+            winGame();}
         if (userGuess > randNumber){
-           lossGame();
-        }
+           lossGame();}
     })
     
+    //Green Crystal (crystal2)
     $("#button2").on ('click', function(){
         userGuess += crystal2;
         //console.log(userGuess);
         updateDisplay();
-       if (userGuess == randNumber){
-            winGame();
-        }
+        if (userGuess == randNumber){
+            winGame();}
         if (userGuess > randNumber){
-           lossGame();
-        }
+           lossGame();}
     })
 
+    //Pink crystal (crystal3)
     $("#button3").on ('click', function(){
         userGuess += crystal3;
         //console.log(userGuess);
         updateDisplay();
-       if (userGuess == randNumber){
-            winGame();
-        }
+        if (userGuess == randNumber){
+            winGame();}
         if (userGuess > randNumber){
-           lossGame();
-        }
+           lossGame();}
     })
 
+    //Purple Crystal (crystal4)
     $("#button4").on ('click', function(){
         userGuess += crystal4;
         //console.log(userGuess);
         updateDisplay();
-       if (userGuess == randNumber){
-            winGame();
-        }
+        if (userGuess == randNumber){
+            winGame();}
         if (userGuess > randNumber){
-           lossGame();
-        }
+           lossGame();}
     })
 
 });
