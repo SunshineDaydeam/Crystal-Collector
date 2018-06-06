@@ -19,4 +19,6 @@ Please message me if you have any questions, comment, or concerns.
 
 -Alex Bruner
 
+Email: ***alexbruner@live.com***
+
 
